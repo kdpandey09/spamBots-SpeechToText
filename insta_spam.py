@@ -21,5 +21,5 @@ while True:
                 pg.press("enter")
         break
     else:
-        print("Don't Enter NULL Message")
+        print("Don't Enter NULL Messages")
         continue
