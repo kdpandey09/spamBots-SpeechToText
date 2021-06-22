@@ -7,4 +7,4 @@ with s.Microphone() as source:
 
     message = r.recognize_google(audio,language='eng-in', show_all =True)
 
-    print(message)
+    print("Your Transcripted Message is: "message['alternative'][0]['transcript'])
